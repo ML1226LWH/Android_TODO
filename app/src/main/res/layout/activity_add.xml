@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        android:layout_height="60dp"
+        android:text="添加事物"
+        android:textSize="30sp"
+        android:textColor="@color/light_yellow" />
+    <Button
+        android:id="@+id/add_commit"
+        android:text="提交"
+        android:textSize="30sp"
+        android:background="@color/grey_green"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+    <EditText
+        android:id="@+id/add_title"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_margin="20dp"
+        android:hint="title"
+        android:textColor="@color/grey_green"
+        android:textSize="30sp" />
+    <EditText
+        android:id="@+id/add_class"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_margin="20dp"
+        android:hint="class"
+        android:textColor="@color/grey_green"
+        android:textSize="30sp" />
+    <EditText
+        android:id="@+id/add_content"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_margin="20dp"
+        android:hint="content"
+        android:textColor="@color/grey_green"
+        android:textSize="30sp" />
+    <EditText
+        android:id="@+id/add_date"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_margin="20dp"
+        android:hint="date"
+        android:textColor="@color/grey_green"
+        android:textSize="30sp" />
+
+
+</LinearLayout>
